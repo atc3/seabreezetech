@@ -3,9 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Board Level Electronics Design Services
 ---
-
-## Board Level Electronics Design Services
 
 <div style="display: flex; flex-direction: row;">
     <img src="/assets/13859132201.jpg" />
@@ -14,8 +13,6 @@ layout: home
 </div>
 
 <br />
-
-**Board level electronics design services:**
 
 - Analog and digital electronics.
 - Embedded software development.

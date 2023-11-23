@@ -42,6 +42,8 @@
     // color: $text-color;
     color: #fff;
     line-height: $base-line-height;
+    display: inline-block;
+    max-width: 12rem;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {

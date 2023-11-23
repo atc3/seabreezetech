@@ -3,7 +3,7 @@
   <div class="wrapper" style="display: flex; flex-direction: row; align-items: center;">
     {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <div style="display: flex; flex-direction: column; flex: 1; padding: 0.5rem 0rem;">
+    <div style="display: flex; flex-direction: column; flex: 1; padding: 0.5rem; margin-right: 1rem; min-width: 30%;">
       <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       <span style="color: #eee; font-weight: normal;">{{ site.description | escape }}</span>
     </div>
